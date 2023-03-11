@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table Project</title>
+</head>
+<body>
+            <!-- Table View = [thead, tbody] deya compulsory nahola
+                jokon react use hobe tokon error dibe, normal html,
+                css & javascript a kono error asena -->
+                    
+    <table border cellpadding="12px" cellspacing="10px">
+
+                    <!-- Table Head -->
+       <thead>
+            <tr>
+                <th colspan="7">Time Table</th>
+            </tr>
+            <tr>
+                <th>Day <br>or<br> Lecture </th>
+                <th>I <br> 09:00 - 09:30</th>
+                <th>II <br> 09:30 - 10:00</th>
+                <th>III <br> 10:00 - 10:30</th>
+                <th>Lunch Break</th>          <!-- <th> ar modha "rowspan" kaj korbena karon "thead" er modha a6e -->
+                <th>V <br> 11:30 - 12:30</th>
+                <th>VI <br> 12:30 - 01:00</th>
+            </tr>
+       </thead>
+
+                           <!-- Table Body -->
+       <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Subjet 1</td>
+                <td>Subjet 2</td>
+                <td>Subjet 3</td>
+                <td rowspan="5">Lunch</td>      <!-- Tai "tbody" te "rowspan" daya holo -->
+                <td>Subjet 4</td>
+                <td>Subjet 5</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Subjet 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Subjet </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Subjet </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Subjet </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Subjet 1</td>
+                <td>Subjet 2</td>
+                <td>Subjet 3</td>
+                <td colspan="3">No Lecture</td>
+            </tr>
+       </tbody>
+
+
+    </table>
+</body>
+</html>

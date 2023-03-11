@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form>
+      <!-- Puro from take akta box a anar jonno use hoi "fieldset"-->
+      <fieldset>
+        <!-- "fieldset" ar madhome create houa box-er upora "User Details !!" dekhanor jonno use hoi "legend"-->
+
+        <legend>User Details !!</legend>
+        <!-- without Fieldset, legend do nothing -->
+
+        <br /><br />
+
+        <!-- "label tag" ar akta attribute =    for="name" 
+        
+            "label tag" use kora "for-er" modha jodi kono "input tag-er id name" diya hoi tokon "label tag-er text a click korla curser input tag-er box a chola jai" -->
+
+        <!-- "input tag" ar akta attribute =    name="username" 
+            
+            On the frontend, the "name" attribute is used to identify the input element when it is submitted as part of a form. When the form is submitted, the "name" attribute is used as the key to send the value of the input to the server.
+
+            On the backend, the "name" attribute is used to retrieve the value of the input element that was submitted as part of a form. The server-side script can access the value of the input using the "name" attribute to identify the input element.    -->
+
+        <label for="name">Please Enter your name: </label>
+        <input type="text" id="name" name="username" />
+
+        <br /><br />
+
+        <label for="phoneno">Enter your phone_no:</label>
+        <input type="number" id="phoneno" name="phone_no" />
+
+        <br /><br /><br /><br />
+
+        <!-- "input" box a ki6u likha "enter" korle "curser next line a move hoina"
+        kintu "textarea" use korla nijar e66a moto rews & colmns dea akta box area 
+        set kora jai and "Enter" dila next line a "curser move hoi" -->
+
+        <label for="address">Please Enter your address: </label>
+        <textarea id="address" cols="20" rows="5" name="useraddress"></textarea>
+
+        <br /><br /><br /><br />
+
+        <label for="dob">DOB: </label>
+        <input type="date" id="dob" name="userdob" />
+
+        <br /><br /><br /><br />
+
+        <label for="password">Enter your password: </label>
+        <input type="password" id="password" name="userpassword" />
+
+        <!-- Jodi amr kache collection of "input type="radio" thake and tader modha je kono 1 ta choose korta bolla tokon "input button a [ name="" ] same rakhtai hobe", jodi same name na thake tokon dekha jabe radio button a multiple select kora ja66a, jeta vul hobe, 
+
+        jamon akhena gender je knono 1 ta hobe tai " input type="radio" " use kora holo and " input name="gender" " kintu same rakhtai hobe 2 to input box a, nahola multiple select hoa jabe -->
+
+        <br /><br /><br /><br />
+
+        Select your gender:
+        <br />
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" />
+        <br />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" />
+
+        <br /><br /><br /><br />
+
+        Select favourite movies:
+        <br />
+        <label for="avengers">Avengers</label>
+        <input type="checkbox" name="avengers" id="avengers" />
+        <br />
+        <label for="thor">Thor</label>
+        <input type="checkbox" name="thor" id="thor" />
+        <br />
+        <label for="ironman">Ironman</label>
+        <input type="checkbox" name="ironman" id="ironman" />
+        <br />
+
+        <br /><br />
+
+        <!--  1. "input" type a "submit" likhe "submit button" create kora jai 
+              2. "input" a "value" te je text daya hobe setai submit button a asbe-->
+
+        <input type="submit" value="This is the Submit button" />
+      </fieldset>
+    </form>
+  </body>
+</html>
