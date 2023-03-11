@@ -1,0 +1,33 @@
+
+
+/* Descendent Selector */
+
+main p{
+    color: red;
+}
+
+
+
+/* Child Selector */
+
+h1 > p{
+    color: blue;
+}
+
+
+
+/* Adjacent sibling Selector */
+
+section + p    /* section-er thik porer "p" tai kaj hobe  */
+{
+    color: rgb(10, 250, 170);
+}
+
+
+
+/* General sibling Selector */
+
+section ~ p     /* section-er pore joto "p" tag thakbe sob goloi tai kaj hobe  */
+{
+    color: rgb(10, 250, 170);
+}

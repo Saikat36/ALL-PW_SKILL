@@ -1,0 +1,41 @@
+
+    /* Universal selector */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+    /* Element selector */
+
+h1{
+    color: aqua;
+}
+
+
+    /* class selectors */
+
+.saikat
+{
+    color:rgb(220, 12, 239)
+}
+
+
+
+    /* ID selectors */
+
+#id1
+{
+    color: chartreuse;
+    font-size: 32px;
+}
+
+
+    /* selector list = 
+    
+    .class1, .class2 , .class3
+    {
+
+    }  
+    
+    */

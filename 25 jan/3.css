@@ -1,0 +1,15 @@
+
+
+/*  Attrubute selectors  */
+
+[target="_blank"]
+{
+    color: rgb(10, 240, 37);
+    font-size: 35px;
+}
+
+
+[alt~="Aw"]
+{
+    background-color: rgb(238, 15, 123);
+}
