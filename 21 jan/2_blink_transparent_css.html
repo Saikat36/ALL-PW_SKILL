@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blink_Transparent_CSS</title>
+
+    <style>
+      h2 {
+        color: green;
+      }
+      .a1, .a2 {
+        animation: blinking 4.5s infinite;
+        font-size: 30px;
+      }
+      @keyframes blinking {
+        0% {
+          color: red;
+        }
+        30% {
+          color: transparent; /* transparent use hoi "text" ta ke vanice korbar jonno*/
+        }
+        40% {
+          color: #ff0683d7;
+        }
+        60% {
+          color: transparent; /* transparent use hoi "text" ta ke vanice korbar jonno*/
+        }
+        70% {
+          color: #c60ad0;
+        }
+        100% {
+          color: transparent; /* transparent use hoi "text" ta ke vanice korbar jonno*/
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+                    <!-- "opacity" use hoi text take halka korar jonno 
+                        "transparent" use hoi "text" ta ke vanice korbar jonno    
+                         "marquee" use hoi text ta right/left/up/down korar jonno -->
+
+    <h2>Demo for Blinking Entire Text</h2>
+    <p class="a1">
+      Blinking Text in CSS defined as changing color of the text with equal time
+      intervals.
+    </p>
+    <p class="a2">
+      Blinking Text is using when updating important news in the news website.
+      Because it is human tendency to look at the things which are changing
+      continuously. So, by making the text blink takes some attention very
+      quickly.
+    </p>
+  </body>
+</html>

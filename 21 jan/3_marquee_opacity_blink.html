@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee + opacity + blink</title>
+    <style>
+        .blink {
+            animation: blink 1.5s infinite;
+            color: red;
+            font-family: sans-serif;
+        }
+        @keyframes blink {
+            50% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br><br>
+
+                            <!-- In that example I use = marquee + opacity + blink -->
+    
+                    <!-- "opacity" use hoi text take halka korar jonno 
+                        "transparent" use hoi "text" ta ke vanice korbar jonno    
+                         "marquee" use hoi text ta right/left/up/down korar jonno -->
+
+    <marquee class="blink" direction="right" scrollamount="9">Example of blinking text using CSS within a marquee.</marquee>
+
+</body>
+</html>
