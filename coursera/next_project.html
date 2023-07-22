@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.promo-banner img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.three-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.column img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 50px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <!-- Client's logo goes here -->
+          <img src="client-logo.png" alt="Client Logo">
+        </div>
+      </header>
+    
+      <main>
+        <div class="promo-banner">
+          <!-- Large promotional banner image goes here -->
+          <img src="promo-banner.jpg" alt="Promotional Banner">
+        </div>
+    
+        <div class="three-columns">
+          <div class="column">
+            <!-- First column with text and image -->
+            <img src="image1.jpg" alt="Image 1">
+            <p>Column 1 Text</p>
+          </div>
+          <div class="column">
+            <!-- Second column with text and image -->
+            <img src="image2.jpg" alt="Image 2">
+            <p>Column 2 Text</p>
+          </div>
+          <div class="column">
+            <!-- Third column with text and image -->
+            <img src="image3.jpg" alt="Image 3">
+            <p>Column 3 Text</p>
+          </div>
+        </div>
+      </main>
+    
+      <footer>
+        <div class="footer-logo">
+          <!-- Smaller version of the logo in the footer -->
+          <img src="client-logo-small.png" alt="Client Logo Small">
+        </div>
+        <div class="copywriting-info">
+          <!-- Copywriting information goes here -->
+          <p>Contact: info@example.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </footer>
+</body>
+</html>
