@@ -10,8 +10,9 @@ body, h1, h2, p, ul, li {
 }
 
 /* Header styles */
+
 header {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   padding: 20px;
@@ -66,13 +67,45 @@ footer {
 .footer-column {
   flex-basis: 50%;
 }
+header{
+  height: 100px;
+}
+.logo{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+nav{
+  width: 80%;
+  background-color: #333;
+  margin: auto;
+  
+}
+nav>ul{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid red;
+}
+.head>li{
+
+}
+
+.head>li>a{
+  color: white;
+  padding: 10px;
+}
+li > a:hover {
+  background-color: #555;
+}
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Company Logo">
+    <img src="you/Asset 16@4x.png" alt="Company Logo" class="logo">
     <nav>
-      <ul>
+      <ul class="head">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Products</a></li>
@@ -89,7 +122,7 @@ footer {
 
     <section class="columns">
       <div class="column">
-        <img src="image1.jpg" alt="Image 1">
+        <img src="" alt="Image 1">
         <h2>Column 1</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
