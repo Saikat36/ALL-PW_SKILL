@@ -1,0 +1,154 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Header styles */
+
+header {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main content styles */
+.banner {
+  width: 90%;
+  margin: auto;
+  padding: 50px;
+  color: #f9f9f9;
+  margin-top: 100px;
+  background-image: url("https://media.gettyimages.com/id/637214478/photo/pasta-plate.jpg?s=1024x1024&w=gi&k=20&c=rwW-kmX1ljNHL0EC--ZthWgsNMvCx3qX4YtJNuUJbTY=");
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner > h1{
+  font-size: 30px;
+}
+
+.banner > p{
+  margin-top: 20px;
+  width: 50%;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex-basis: 30%;
+  padding: 20px;
+  background-color: bisque;
+  border-radius: 15px;
+  /* width: 20%; */
+}
+
+.column>h2{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.column>img {
+  width: 100%;
+  height: 300px;
+}
+
+.column>p{
+  margin-top: 20px;
+  width: 85%;
+}
+
+.t1{
+  color: blue;
+  text-decoration: underline;
+}
+.t2{
+  margin-left: 20px;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+footer{
+  width: 90%;
+  height: 100px;
+  margin-bottom: 90px;
+}
+
+.footer-column1 {
+  width: 80px;
+  margin-left: 30px;
+}
+
+.footer-column1>img{
+  width: 100%;
+}
+
+.footer-column2>hr{
+  margin-top: 20px;
+  width: 30pc;
+}
+
+.footer-column2>p{
+  text-align: left;
+  margin-top: 20px;
+}
+
+header{
+  height: 100px;
+}
+.logo{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+nav{
+  width: 85%;
+  height: 60px;
+  background-color: #333;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+nav>ul{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.head>li>a{
+  color: white;
+  padding: 20px;
+}
+li > a:hover {
+  background-color: #555;
+}
